@@ -1,4 +1,4 @@
----
+﻿---
 layout: default
 title: The Daily Bread
 ---
@@ -32,7 +32,7 @@ yepnope({
            //localApiCache: 'aggregate.json',
            dataset: OpenSpending.identifier,
            drilldowns: ['Category', 'Subcategory'],
-           cuts: ['year:' + OpenSpending.year],
+           cuts: ['Time:' + OpenSpending.year],
            rootNodeLabel: 'Total',
            breakdown: 'Subcategory',
            callback: function(data) {
