@@ -31,8 +31,8 @@ yepnope({
            apiUrl: 'http://openspending.org/api',
            //localApiCache: 'aggregate.json',
            dataset: OpenSpending.identifier,
-           drilldowns: ['Category', 'Subcategory'],
-           cuts: ['Time:' + OpenSpending.year],
+           drilldowns: ['Category', 'subcategory'],
+           cuts: ['time:' + OpenSpending.year],
            rootNodeLabel: 'Total',
            breakdown: 'Subcategory',
            callback: function(data) {
