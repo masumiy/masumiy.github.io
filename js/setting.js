@@ -10,14 +10,14 @@ Taxes.taxRate = 0.06; // 住民税率
 
 var OpenSpending = OpenSpending || {};
 
-OpenSpending.identifier = 'Mishima_City_Budget_2014';
+OpenSpending.identifier = 'mishima_city_budget_2014';
 OpenSpending.year = '2014';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
 
 OpenSpending.Styles.Cofog = {
 
-  /* yokohama cofog */
+  /* Mishima cofog */
   '20140100': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#935B3B' },
   '20140101': { icon: 'icons/helping-others.svg', color: '#C75746', bcolor: '#935B3B' },
   '20140200': { icon: 'icons/schools.svg', color: '#C75746', bcolor: '#0AB971' },
