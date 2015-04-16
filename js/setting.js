@@ -10,8 +10,8 @@ Taxes.taxRate = 0.06; // 住民税率
 
 var OpenSpending = OpenSpending || {};
 
-OpenSpending.identifier = 'mishima_city_budget_2014';
-OpenSpending.year = '2014';
+OpenSpending.identifier = 'mishima_city_budget_2015';
+OpenSpending.year = '2015';
 
 OpenSpending.Styles = OpenSpending.Styles || {};
 
